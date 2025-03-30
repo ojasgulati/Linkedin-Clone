@@ -3,29 +3,15 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="connections-service" />
-        <module name="discovery-server" />
-        <module name="posts-service" />
-        <module name="api-gateway" />
-        <module name="user-service" />
-        <module name="uploader-service" />
-        <module name="notification-service" />
-      </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="api-gateway" options="-parameters" />
-      <module name="connections-service" options="-parameters" />
-      <module name="discovery-server" options="-parameters" />
-      <module name="notification-service" options="-parameters" />
-      <module name="posts-service" options="-parameters" />
-      <module name="uploader-service" options="-parameters" />
-      <module name="user-service" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="21" />
+      <module name="connections-service" target="21" />
+      <module name="discovery-server" target="21" />
+      <module name="notification-service" target="21" />
+      <module name="posts-service" target="21" />
+      <module name="uploader-service" target="21" />
+      <module name="user-service" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

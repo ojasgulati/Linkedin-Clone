@@ -41,6 +41,9 @@ LinkedIn App is a professional networking platform designed to connect individua
    - Posts Service: `http://localhost:8082`
    - Notification Service: `http://localhost:8083`
 
+### Database Schema
+![](https://github.com/ojasgulati/LinkedinApp/blob/main/images/database_schema.png)
+
 ### Contribution Guidelines
 1. Fork the repository.
 2. Create a feature branch.
